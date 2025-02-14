@@ -64,12 +64,12 @@ bookId=your-book-id
 token=your-valid-token
 ```
 
-###Generate or Obtain the Token:
+## Generate or Obtain the Token
 
 Use the Login API `(/api/Login)` to automate token retrieval as part of the tests.
 
-###Missing Configuration: 
+## Missing Configuration
 Ensure that the config.properties file contains the correct values for API endpoints and credentials.
 
-##Conclusion
+## Conclusion
 This concludes the documentation for setting up and running the automated API tests for the Book Cart API. Follow the steps above to get started with testing the application.
