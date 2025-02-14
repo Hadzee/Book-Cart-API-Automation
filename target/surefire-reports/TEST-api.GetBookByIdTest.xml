@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="api.GetBookByIdTest" time="0.914" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\tarik\OneDrive\Desktop\Book Cart Automation\target\test-classes;C:\Users\tarik\OneDrive\Desktop\Book Cart Automation\target\classes;C:\Users\tarik\.m2\repository\io\rest-assured\rest-assured\5.0.0\rest-assured-5.0.0.jar;C:\Users\tarik\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\tarik\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\tarik\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\tarik\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\tarik\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\tarik\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\tarik\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\tarik\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\tarik\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\tarik\.m2\repository\io\rest-assured\json-path\5.0.0\json-path-5.0.0.jar;C:\Users\tarik\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\tarik\.m2\repository\io\rest-assured\rest-assured-common\5.0.0\rest-assured-common-5.0.0.jar;C:\Users\tarik\.m2\repository\io\rest-assured\xml-path\5.0.0\xml-path-5.0.0.jar;C:\Users\tarik\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\tarik\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\tarik\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\tarik\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\tarik\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\tarik\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\tarik\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\tarik\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\tarik\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\tarik\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Sarajevo"/>
+    <property name="user.country.format" value="BA"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\tarik\AppData\Local\Temp\surefire13288811869202869774\surefirebooter13255299741209629824.jar C:\Users\tarik\AppData\Local\Temp\surefire13288811869202869774 2025-02-14T10-18-25_413-jvmRun1 surefire12377065769956374305tmp surefire_012279765533103888216tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\tarik\OneDrive\Desktop\Book Cart Automation\target\test-classes;C:\Users\tarik\OneDrive\Desktop\Book Cart Automation\target\classes;C:\Users\tarik\.m2\repository\io\rest-assured\rest-assured\5.0.0\rest-assured-5.0.0.jar;C:\Users\tarik\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\tarik\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\tarik\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\tarik\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\tarik\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\tarik\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\tarik\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\tarik\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\tarik\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\tarik\.m2\repository\io\rest-assured\json-path\5.0.0\json-path-5.0.0.jar;C:\Users\tarik\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\tarik\.m2\repository\io\rest-assured\rest-assured-common\5.0.0\rest-assured-common-5.0.0.jar;C:\Users\tarik\.m2\repository\io\rest-assured\xml-path\5.0.0\xml-path-5.0.0.jar;C:\Users\tarik\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\tarik\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\tarik\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\tarik\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\tarik\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\tarik\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\tarik\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\tarik\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\tarik\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\tarik\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\tarik"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\tarik\OneDrive\Desktop\Book Cart Automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\tarik\AppData\Local\Temp\surefire13288811869202869774\surefirebooter13255299741209629824.jar"/>
+    <property name="user.script" value=""/>
+    <property name="user.script.format" value="Latn"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
+    <property name="user.name" value="tarik"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\tarik\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\tarik\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="C:\Users\tarik\OneDrive\Desktop\Book Cart Automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="bs"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\app\tarik\product\21c\dbhomeXE\bin;C:\app\tarik2\product\21c\dbhomeXE\bin;C:\DB21c\dbhomeXE\bin;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\maven\apache-maven-3.9.6\bin;C:\Program Files\k6\;C:\Program Files\Git\cmd;C:\Users\tarik\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\tarik\AppData\Local\Programs\Python\Python312\;C:\Users\tarik\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;;C:\Users\tarik\AppData\Roaming\npm;C:\Users\tarik\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="getBookById" classname="api.GetBookByIdTest" time="0.914"/>
+</testsuite>

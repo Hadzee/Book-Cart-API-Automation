@@ -1,0 +1,21 @@
+Title: Login Test for the Book Cart App
+
+Description:
+As a user, I should be able to successfully log in to the Book Cart App, and verify that the Home page is displayed. This test is referring to test_add_contact.py
+
+
+Test Steps:
+
+GIVEN that I navigate to the Book Cart Login page
+WHEN I enter my username
+AND I enter my password
+THEN I click on the Login button
+AND I verify that the Home page is displayed with a list of books
+AND I can see that the categories are displayed where I can filter the books
+THEN I select my user in the top right corner
+AND I click on the Logout option from the dropdown
+THEN I can see that I am navigated back to the login page
+
+
+Reason it is considered a smoke test:
+I am validating the core functionality that I can log in successfully, verify that the home page is displayed, and log out after that without issues.

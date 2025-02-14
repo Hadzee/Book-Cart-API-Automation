@@ -1,0 +1,22 @@
+Title: Add to Cart Negative Test Case for the Book Cart App
+
+Description:
+As a user, I should not be able to add a book to the cart if I am not authenticated,
+or if I provide an invalid token
+
+
+Test Steps:
+
+GIVEN that I am not logged in, or I have an invalid token
+WHEN I try to add a book to the cart
+THEN the API should respond with an error status code (401 Unauthorized or 403 Forbidden)
+AND I should see an appropriate error message indicating that the authentication failed
+AND I am not allowed to proceed with adding the book to the cart
+
+
+Reason it is considered a negative test:
+
+The test verifies that the system behaves correctly when invalid data is provided.
+It checks for security and proper error handling,
+ensuring that unauthorized users cannot perform critical actions like adding items to the cart.
+

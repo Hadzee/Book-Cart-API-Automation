@@ -1,0 +1,28 @@
+Title: Order Retrieval Test for the Book Cart App
+
+Description:
+As a user, I should be able to add a book to the cart, place the order on the Checkout page, and verify my order details.
+
+Test Steps:
+
+GIVEN that I log in to the Book Cart App
+WHEN I click on "Add to Cart" for one of the books
+THEN I navigate to the Cart
+AND I verify that the book was successfully added
+THEN I click on the "Checkout" button
+THEN I verify that the Checkout page is displayed
+AND I enter my name for the shipping address
+AND I enter my address line 1
+AND I enter the address line 2
+AND I enter the Pincode (I make sure I enter a 6-digit number, also the first number cannot be 0)
+AND I enter my State
+Then I click on the "Place Order" button
+AND I can see that I'm navigated to the "My Orders" page
+THEN I verify that my order is displayed correctly
+THEN I select my user in the top right corner
+AND I click on the Logout option from the dropdown
+THEN I can see that I am navigated back to the login page
+
+
+Reason it is considered a smoke test:
+I am validating the core functionality where I add a book to the shopping cart, place an order on the Checkout page, and verify that the order is displayed on the "My Orders" page.

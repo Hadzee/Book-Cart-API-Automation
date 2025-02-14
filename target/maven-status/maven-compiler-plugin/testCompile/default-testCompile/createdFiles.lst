@@ -1,0 +1,10 @@
+api\APIUserTest.class
+helperClass\AuthenticationHelper.class
+api\GetSimilarBooksTest.class
+api\GetCategoriesListTest.class
+api\ShoppingCartTest.class
+api\GetBooksTest.class
+api\OrderAPITest.class
+api\LoginTest.class
+api\GetBookByIdTest.class
+api\WishlistAPITest.class

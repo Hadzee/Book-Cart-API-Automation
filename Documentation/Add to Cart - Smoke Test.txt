@@ -1,0 +1,20 @@
+Title: Add to Cart Test for the Book Cart App
+
+Description:
+As a user, I should be able to successfully log in to the Book Cart App, add a book to the cart, and verify that it was added successfully.
+
+
+Test Steps:
+
+GIVEN that I log in to the Book Cart App
+WHEN I click on "Add to Cart" for one of the books
+THEN I navigate to the Cart
+AND I verify that the book was successfully added
+AND I navigate back to the Home page
+THEN I select my user in the top right corner
+AND I click on the Logout option from the dropdown
+THEN I can see that I am navigated back to the login page
+
+
+Reason it is considered a smoke test:
+I am validating the core functionality where I log in successfully, add a book to the shopping cart, verify that it was added, then log out.

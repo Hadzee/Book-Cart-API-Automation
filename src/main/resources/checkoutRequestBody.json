@@ -1,0 +1,16 @@
+{
+  "orderDetails": [
+    {
+      "book": {
+        "bookId": 46,
+        "title": "Catching Fire",
+        "author": "Suzanne Collins",
+        "category": "Mystery",
+        "price": 658.00,
+        "coverFileName": "6df4a30a-e8a1-467d-9da6-d826989a9c606148028.jpg"
+      },
+      "quantity": 1
+    }
+  ],
+  "cartTotal": 658.00
+}
